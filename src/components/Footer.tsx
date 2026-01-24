@@ -7,16 +7,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-green-800 rounded-full flex items-center justify-center text-white font-bold shadow-lg">
-                <span>GM</span>
+              <div className="w-12 h-12 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center text-white font-bold shadow-lg">
+                <span>VOS</span>
               </div>
               <div>
-                <h3 className="text-white font-bold text-lg">GM Cotoca</h3>
-                <p className="text-sm text-gray-400">Santa Cruz</p>
+                <h3 className="text-white font-bold text-lg">José Luis Moreno</h3>
+                <p className="text-sm text-gray-400">Partido VOS - Cotoca</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Gobierno Municipal de Cotoca, comprometido con el desarrollo y bienestar de nuestra comunidad.
+              Partido VOS comprometido con el desarrollo, transparencia y bienestar de Cotoca.
             </p>
           </div>
 
@@ -24,28 +24,28 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-4">Enlaces Rápidos</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#gobierno" className="hover:text-green-500 transition text-sm">
-                  Gobierno Municipal
+                <a href="#candidato" className="hover:text-red-400 transition text-sm">
+                  Candidato
                 </a>
               </li>
               <li>
-                <a href="#tramites" className="hover:text-green-500 transition text-sm">
-                  Trámites y Servicios
+                <a href="#propuestas" className="hover:text-red-400 transition text-sm">
+                  Propuestas
                 </a>
               </li>
               <li>
-                <a href="#noticias" className="hover:text-green-500 transition text-sm">
-                  Noticias y Eventos
+                <a href="#galeria" className="hover:text-red-400 transition text-sm">
+                  Galería
                 </a>
               </li>
               <li>
-                <a href="#transparencia" className="hover:text-green-500 transition text-sm">
-                  Transparencia
+                <a href="#denuncias" className="hover:text-red-400 transition text-sm">
+                  Denuncias
                 </a>
               </li>
               <li>
-                <a href="#turismo" className="hover:text-green-500 transition text-sm">
-                  Turismo
+                <a href="#contacto" className="hover:text-red-400 transition text-sm">
+                  Contacto
                 </a>
               </li>
             </ul>
@@ -69,8 +69,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-green-500 flex-shrink-0" />
-                <a href="mailto:info@cotoca.gob.bo" className="hover:text-green-500 transition text-sm">
-                  info@cotoca.gob.bo
+                <a href="mailto:info@voscotoca.bo" className="hover:text-red-400 transition text-sm">
+                  info@voscotoca.bo
                 </a>
               </li>
             </ul>
@@ -115,16 +115,16 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-400">
-              © 2026 Gobierno Municipal de Cotoca. Todos los derechos reservados.
+              © 2026 Partido VOS - Cotoca. Todos los derechos reservados.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="hover:text-green-500 transition">
+              <a href="#" className="hover:text-red-400 transition">
                 Política de Privacidad
               </a>
-              <a href="#" className="hover:text-green-500 transition">
+              <a href="#" className="hover:text-red-400 transition">
                 Términos de Uso
               </a>
-              <a href="#" className="hover:text-green-500 transition">
+              <a href="#" className="hover:text-red-400 transition">
                 Mapa del Sitio
               </a>
             </div>
