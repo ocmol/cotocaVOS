@@ -8,15 +8,15 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center text-white font-bold shadow-lg">
-                <span>VOS</span>
+                <span>GM</span>
               </div>
               <div>
-                <h3 className="text-white font-bold text-lg">José Luis Moreno</h3>
-                <p className="text-sm text-gray-400">Partido VOS - Cotoca</p>
+                <h3 className="text-white font-bold text-lg">GM Cotoca</h3>
+                <p className="text-sm text-gray-400">Santa Cruz</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Partido VOS comprometido con el desarrollo, transparencia y bienestar de Cotoca.
+              Gobierno Municipal de Cotoca, comprometido con el desarrollo y bienestar de nuestra comunidad.
             </p>
           </div>
 
@@ -24,28 +24,28 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-4">Enlaces Rápidos</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#candidato" className="hover:text-red-400 transition text-sm">
-                  Candidato
+                <a href="#inicio" className="hover:text-red-400 transition text-sm">
+                  Inicio
                 </a>
               </li>
               <li>
-                <a href="#propuestas" className="hover:text-red-400 transition text-sm">
-                  Propuestas
+                <a href="#servicios" className="hover:text-red-400 transition text-sm">
+                  Servicios
                 </a>
               </li>
               <li>
-                <a href="#galeria" className="hover:text-red-400 transition text-sm">
-                  Galería
+                <a href="#atracciones" className="hover:text-red-400 transition text-sm">
+                  Atracciones
+                </a>
+              </li>
+              <li>
+                <a href="#noticias" className="hover:text-red-400 transition text-sm">
+                  Noticias
                 </a>
               </li>
               <li>
                 <a href="#denuncias" className="hover:text-red-400 transition text-sm">
                   Denuncias
-                </a>
-              </li>
-              <li>
-                <a href="#contacto" className="hover:text-red-400 transition text-sm">
-                  Contacto
                 </a>
               </li>
             </ul>
@@ -69,8 +69,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-green-500 flex-shrink-0" />
-                <a href="mailto:info@voscotoca.bo" className="hover:text-red-400 transition text-sm">
-                  info@voscotoca.bo
+                <a href="mailto:info@cotoca.gob.bo" className="hover:text-red-400 transition text-sm">
+                  info@cotoca.gob.bo
                 </a>
               </li>
             </ul>
@@ -115,7 +115,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-400">
-              © 2026 Partido VOS - Cotoca. Todos los derechos reservados.
+              © 2026 Gobierno Municipal de Cotoca. Todos los derechos reservados.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="hover:text-red-400 transition">

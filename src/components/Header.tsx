@@ -14,9 +14,9 @@ export default function Header() {
                 <Phone size={14} />
                 <span>(591-3) 300-0000</span>
               </a>
-              <a href="mailto:info@voscotoca.bo" className="flex items-center gap-2 hover:text-red-200 transition">
+              <a href="mailto:info@cotoca.gob.bo" className="flex items-center gap-2 hover:text-red-200 transition">
                 <Mail size={14} />
-                <span>info@voscotoca.bo</span>
+                <span>info@cotoca.gob.bo</span>
               </a>
             </div>
             <div className="flex items-center gap-2">
@@ -32,11 +32,11 @@ export default function Header() {
           <div className="flex items-center justify-between py-4">
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg">
-                <span>VOS</span>
+                <span>GM</span>
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-red-700">José Luis Moreno</h1>
-                <p className="text-sm text-gray-600">Candidato - Partido VOS</p>
+                <h1 className="text-2xl font-bold text-red-700">Gobierno Municipal de Cotoca</h1>
+                <p className="text-sm text-gray-600">Santa Cruz - Bolivia</p>
               </div>
             </div>
 
@@ -49,9 +49,10 @@ export default function Header() {
 
             <nav className="hidden lg:flex items-center gap-8">
               <a href="#inicio" className="text-gray-700 hover:text-red-700 font-medium transition">Inicio</a>
-              <a href="#propuestas" className="text-gray-700 hover:text-red-700 font-medium transition">Propuestas</a>
-              <a href="#galeria" className="text-gray-700 hover:text-red-700 font-medium transition">Galería</a>
+              <a href="#servicios" className="text-gray-700 hover:text-red-700 font-medium transition">Servicios</a>
+              <a href="#atracciones" className="text-gray-700 hover:text-red-700 font-medium transition">Atracciones</a>
               <a href="#noticias" className="text-gray-700 hover:text-red-700 font-medium transition">Noticias</a>
+              <a href="#denuncias" className="text-gray-700 hover:text-red-700 font-medium transition">Denuncias</a>
               <a href="#contacto" className="text-gray-700 hover:text-red-700 font-medium transition">Contacto</a>
             </nav>
           </div>
@@ -59,9 +60,10 @@ export default function Header() {
           {isMenuOpen && (
             <nav className="lg:hidden pb-4 space-y-2">
               <a href="#inicio" className="block py-2 text-gray-700 hover:text-red-700 font-medium transition">Inicio</a>
-              <a href="#propuestas" className="block py-2 text-gray-700 hover:text-red-700 font-medium transition">Propuestas</a>
-              <a href="#galeria" className="block py-2 text-gray-700 hover:text-red-700 font-medium transition">Galería</a>
+              <a href="#servicios" className="block py-2 text-gray-700 hover:text-red-700 font-medium transition">Servicios</a>
+              <a href="#atracciones" className="block py-2 text-gray-700 hover:text-red-700 font-medium transition">Atracciones</a>
               <a href="#noticias" className="block py-2 text-gray-700 hover:text-red-700 font-medium transition">Noticias</a>
+              <a href="#denuncias" className="block py-2 text-gray-700 hover:text-red-700 font-medium transition">Denuncias</a>
               <a href="#contacto" className="block py-2 text-gray-700 hover:text-red-700 font-medium transition">Contacto</a>
             </nav>
           )}

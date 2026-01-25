@@ -59,7 +59,7 @@ export default function News() {
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                  <span className="bg-red-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
                     {item.category}
                   </span>
                 </div>
@@ -81,7 +81,7 @@ export default function News() {
                 <p className="text-gray-600 text-sm mb-4 line-clamp-2">
                   {item.excerpt}
                 </p>
-                <button className="text-green-600 hover:text-green-700 font-semibold text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
+                <button className="text-red-600 hover:text-red-700 font-semibold text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
                   Leer más
                   <ArrowRight size={16} />
                 </button>
@@ -91,7 +91,7 @@ export default function News() {
         </div>
 
         <div className="text-center">
-          <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition shadow-lg">
+          <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition shadow-lg">
             Ver todas las noticias
           </button>
         </div>

@@ -66,7 +66,7 @@ export default function Services() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute bottom-4 left-4">
-                    <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center">
+                    <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
                       <Icon className="text-white" size={24} />
                     </div>
                   </div>
@@ -74,7 +74,7 @@ export default function Services() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{service.description}</p>
-                  <button className="mt-4 text-green-600 hover:text-green-700 font-semibold flex items-center gap-2 group-hover:gap-3 transition-all">
+                  <button className="mt-4 text-red-600 hover:text-red-700 font-semibold flex items-center gap-2 group-hover:gap-3 transition-all">
                     Ver más
                     <span>→</span>
                   </button>

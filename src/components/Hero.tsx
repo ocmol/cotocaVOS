@@ -3,19 +3,19 @@ import { useState, useEffect } from 'react';
 
 const slides = [
   {
-    title: 'José Luis Moreno',
-    description: 'Trabajando por un mejor Cotoca',
-    image: 'https://images.pexels.com/photos/2239642/pexels-photo-2239642.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  },
-  {
-    title: 'Cotoca, Santa Cruz',
-    description: 'Nuestro municipio, nuestro futuro',
+    title: 'Bienvenidos a Cotoca',
+    description: 'Municipio de tradición, fe y progreso en Santa Cruz',
     image: 'https://images.pexels.com/photos/1936936/pexels-photo-1936936.jpeg?auto=compress&cs=tinysrgb&w=1920',
   },
   {
-    title: 'Juntos por el Cambio',
-    description: 'Partido VOS - Compromiso con la comunidad',
+    title: 'Servicios Municipales',
+    description: 'Comprometidos con el desarrollo de nuestra comunidad',
     image: 'https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  },
+  {
+    title: 'Turismo y Cultura',
+    description: 'Descubre la riqueza cultural de nuestro municipio',
+    image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1920',
   },
 ];
 
@@ -61,7 +61,7 @@ export default function Hero() {
                 {slide.description}
               </p>
               <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition shadow-lg">
-                Conoce Nuestras Propuestas
+                Más Información
               </button>
             </div>
           </div>
